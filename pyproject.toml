@@ -1,5 +1,5 @@
 [project]
-name = "cloud-ing5"
+name = "lab01CloudING5"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -7,10 +7,13 @@ authors = [
     { name = "Oumar26", email = "113768204+Oumar26@users.noreply.github.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "faker>=40.40.0",
+]
 
 [project.scripts]
-cloud-ing5 = "cloud_ing5:main"
+dataset-users = "lab01CloudING5.dataset_users:main"
+dataset-orders = "lab01CloudING5.dataset_orders:main"
 
 [build-system]
 requires = ["uv_build>=0.9.11,<0.10.0"]

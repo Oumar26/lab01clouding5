@@ -1,5 +1,5 @@
 [project]
-name = "lab01CloudING5"
+name = "lab01clouding5"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -12,8 +12,8 @@ dependencies = [
 ]
 
 [project.scripts]
-dataset-users = "lab01CloudING5.dataset_users:main"
-dataset-orders = "lab01CloudING5.dataset_orders:main"
+dataset-users = "lab01clouding5.dataset_users:main"
+dataset-orders = "lab01clouding5.dataset_orders:main"
 
 [build-system]
 requires = ["uv_build>=0.9.11,<0.10.0"]
